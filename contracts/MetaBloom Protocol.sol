@@ -1,15 +1,4 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-/**
- * @title MetaBloom Protocol
- * @dev A decentralized growth protocol enabling users to stake tokens and earn rewards over time.
- * Designed for DeFi and Web3 ecosystems.
- */
-contract MetaBloomProtocol {
-    address public owner;
-    uint256 public totalStaked;
-    uint256 public rewardRate = 5; // 5% reward rate
+5% reward rate
 
     struct StakeInfo {
         uint256 amount;
@@ -72,4 +61,6 @@ contract MetaBloomProtocol {
         return (stakes[_user].amount, block.timestamp - stakes[_user].timestamp);
     }
 }
-
+// 
+update
+// 
