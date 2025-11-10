@@ -91,9 +91,8 @@ reward per token staked, scaled
         return (p.stakedAmount, p.reputation, p.rewardsClaimed);
     }
 
-    // Fallback to receive ETH rewards (if applicable)
-    receive() external payable {}
-}
+    End
+// 
 // 
 End
 // 
